@@ -49,7 +49,6 @@ export default function FormCep() {
       if (error instanceof Error) {
         toast.error(`Erro: ${error.message}`);
       }
-      toast.error("Erro desconhecido");
     }
   }
 
